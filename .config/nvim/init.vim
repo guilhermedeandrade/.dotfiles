@@ -209,7 +209,7 @@ set splitright              " move cursor to the new horizontal split
 " THEME 
 " ---------------------------------------------
 colorscheme PaperColor
-set background=light
+set background=dark
 
 " ---------------------------------------------
 " LIGHTLINE 
