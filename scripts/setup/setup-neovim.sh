@@ -5,8 +5,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 echo "Installing Python 2 and Python 3 providers..."
+sudo aptitude install -y python
+sudo aptitude install -y python3
+
 curl https://bootstrap.pypa.io/get-pip.py -o $HOME/get-pip.py
-python get-pip.py
+python2 get-pip.py
+python3 get-pip.py
 rm $HOME/get-pip.py
 
 python2 -m pip install --user --upgrade pynvim
