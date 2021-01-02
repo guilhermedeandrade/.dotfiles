@@ -25,12 +25,12 @@ Configuration files for some tools that I use daily such as: kitty, fish, tmux &
 **Setup**
 
 ```sh
-git clone --separate-git-dir=$HOME/.dotfiles --single-branch --branch=main https://github.com/guilhermedeandrade/.dotfiles.git tmpdotfiles
+git clone --separate-git-dir=$HOME/.dotfiles --single-branch --branch=wsl https://github.com/guilhermedeandrade/.dotfiles.git tmpdotfiles
 rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/
 rm -r tmpdotfiles
 ```
 
-Note that the `main` branch is meant to be used with macOS. The `--branch` flag should be changed to either `wsl` or `linux` if you aren't using it.
+Note that the `main` branch is meant to be used with macOS Catalina. The `--branch` flag should be changed to either `wsl` (Ubuntu 20.4) or `manjaro` (20.2) if you aren't using it.
 
 ## :runner: Getting Started
 
@@ -53,7 +53,7 @@ dotfiles push
 
 ## :spiral_notepad: Notes
 
-The `wsl` branch is outdated and the `linux` has yet to be created.
+The `manjaro` branch has yet to be created.
 
 ## :pray: Acknowledgments
 
