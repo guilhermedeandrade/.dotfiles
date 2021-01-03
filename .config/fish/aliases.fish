@@ -16,9 +16,6 @@ alias dotfiles "git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 # use trash instead of rm
 alias rm "trash"
 
-# remove folder recursively
-alias rmf "rm -rf"
-
 # vscode
 alias code code-insiders
 
@@ -26,4 +23,4 @@ alias code code-insiders
 alias yrun "bash $HOME/scripts/yarn-run.sh"
 
 # use bat instead of cat 
-alias cat "batcat"
+alias cat "bat"

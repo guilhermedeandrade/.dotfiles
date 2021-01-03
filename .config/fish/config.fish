@@ -23,4 +23,4 @@ set fish_greeting
 fish_vi_key_bindings
 
 # set FZF_DEFAULT_COMMAND 
-set -gx FZF_DEFAULT_COMMAND  'rg --files --follow --hidden'
+set -gx FZF_DEFAULT_COMMAND 'rg --files --follow --hidden'
